@@ -1,0 +1,10 @@
+id                           INT                    UNSIGNED            AUTO_INCRMENT           PRIMARY-KEY
+marca                        VARCHAR(100)           NOT_NULL
+modello                      VARCHAR(100)           NOT_NULL
+anno_immatricolazione        YEAR                   NOT_NULL
+chilometri                   INT                    UNSIGNED
+disponibile                  BOOLEAN                
+numero_porte                 TINYINT                UNSIGNED
+note-aggiuntive              TEXT
+paese                        VARCHAR(100)           NULL
+targa                        VARCHAR(100)           NOT_NULL            UNIQUE
